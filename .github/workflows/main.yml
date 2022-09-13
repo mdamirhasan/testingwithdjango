@@ -2,7 +2,7 @@ name: test_Django
 on: [pull_request, push] # activates the workflow when there is a push or pull request in the repo
 jobs:
   test_project:
-    runs-on: ubuntu-Ubuntu 22.04 LTS # operating system your code will run on
+    runs-on: ubuntu-22.04 # operating system your code will run on
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
