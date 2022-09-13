@@ -2,7 +2,7 @@ from django.test import TestCase
 
 # Create your tests here.
 import pytest    
-from app.models import Contact    
+from .models import Contact    
 
 @pytest.mark.django_db #give test access to database  
 def test_contact_create():    
