@@ -16,7 +16,7 @@ dbus-python==1.2.18
 distro==1.7.0
 # distro-info===1.1build1
 Django==3.2.12
-duplicity==0.8.21
+# duplicity==0.8.21
 Faker==12.0.1
 fasteners==0.14.1
 future==0.18.2
