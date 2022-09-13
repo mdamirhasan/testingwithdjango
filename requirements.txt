@@ -20,7 +20,7 @@ Django==3.2.12
 Faker==12.0.1
 fasteners==0.14.1
 future==0.18.2
-gpg===1.16.0-unknown
+# gpg===1.16.0-unknown
 httplib2==0.20.2
 idna==3.3
 importlib-metadata==4.6.4
