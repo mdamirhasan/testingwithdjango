@@ -7,6 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - run: sudo pip install flake8
+      - run: echo "::set-env name=DJANGO_SETTINGS_MODULE::contact_app.settings"
       - run: sudo python -m pip install --upgrade pip
       - run: sudo pip install -r requirements.txt # install all our dependencies for the project
       - run: pytest . # run pytest test
